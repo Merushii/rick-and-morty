@@ -1,0 +1,84 @@
+body{
+  background-color: cadetblue;
+  font-family: 'Indie Flower', cursive;
+}
+
+.app__title{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(56, 99, 100);
+}
+
+.app__title img{
+  width: 50%;
+}
+
+.app_residentSection{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.app__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  padding-bottom: 5px;
+  position: sticky;
+  top: 0;
+}
+
+.app__form input{
+  background-color: rgba(255, 255, 255, 0.821);
+  width: 80%;
+  font-size: 20px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid yellow;
+}
+
+.app__form button{
+  background-color: rgb(208, 255, 0);
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+
+.app__buttonSearch:hover{
+  cursor: pointer;
+  background-color: yellow;
+}
+
+.app__locationInfo{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.app__numbersPage{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
+  font-size: 25px;
+  margin: 30px;
+}
+
+.app__numbersPage li{
+  background-color: rgb(208, 255, 0);
+  width: 40px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  font-family: cursive;
+}
+
+.app__numbersPage li:hover{
+  cursor: pointer;
+  background-color: yellow;
+}

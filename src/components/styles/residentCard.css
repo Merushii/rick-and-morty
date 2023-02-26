@@ -1,0 +1,34 @@
+
+.residentCard{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px;
+  width: 250px;
+  align-items: center;
+  background-color: rgb(56, 99, 100);
+  border-radius: 10px;
+  color: white;
+  border: 1px solid yellow;
+
+}
+
+.residentCard__dataSection{
+  padding: 5px 20px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.residentCard__dataSection span{
+  color: rgb(208, 255, 0); 
+}
+
+.residentCard img{
+  display: flex;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+h3{
+  color: yellow;
+  font-weight: 700;
+}
