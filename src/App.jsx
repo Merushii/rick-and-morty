@@ -46,7 +46,7 @@ function App() {
     <div className="App">
       <navbar className="app__navbar">
         <div className="app__title">
-          <img src="../src/assets/img/title-rick-and-morty.png" alt="rick and morty title" className='app__titleRickAndMorty'/>
+          <img src="https://1000logos.net/wp-content/uploads/2022/03/Rick-and-Morty.png" alt="rick and morty title" className='app__titleRickAndMorty'/>
           </div>
         <form onSubmit={handleSubmit} className="app__form">
           <input type="text" id='idLocation' placeholder='Type a location id...' />
